@@ -26,10 +26,10 @@ const App = () => {
   const [ingredientList, setIngredientList] = useState([])
 
   const addToBurger = () => {
-    setStack([...stack, newStack])
+    setStack([...stack, newStackItem])
   }
   const removeFromBurger = () => {
-    setStack
+    setStack(stack.splice())
   }
 
 
